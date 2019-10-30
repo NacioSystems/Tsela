@@ -12,7 +12,8 @@ Realmente al ver el resultado se me ocurrió llamarle Nisan Patrol, pero ese nom
 
 - - -
 
-###Introducción:
+### Introducción:
+
 El chasis del vehículo está construido básicamente en madera, utilizando sobrante de madera de una caja de vino. Como motores utiliza dos micrometal que encontré perdidos y de los que desconozco su relación de reducción, aunque puedo decir que son muy potentes y poco veloces. Para controlar la velocidad de los motores utilizo un punte en H tipo L298N, que me permite regular la velocidad y el sentido de los dos motores. Por otra parte para leer la posición del vehículo respecto de la línea (negra) que debe seguir, utilizo una batería de cuatro sensores CNY70, puestos de modo transverlal a la línea. Todo el conjunto está controlado por un Arduino Nano montado sobre una placa de expansión. La gracia del vehículo, respecto de otros siguelíneas tradicionales, es que gira gracias a un eje directriz delantero movido por un microservo SG90. Se alimenta todo e conjunto a través de do baterías LiPo 18650 puestas en serie,con 8V de tensión nominal.
 
 El vehículo se enciendo por un interruptor que da tensión a los motores y a la placa Arduino, iniciando el movimiento hacia adelante y leyendo lo sensores infrarrojos. En función de la señal que reciba de los sensores, en caso de no estar centrado sobre la línea, manda una señal al microservo de la dirección para corregir la posición y centrarse en la línea.
@@ -38,7 +39,7 @@ Si el vehículo está centrado avanza recto a la máxima velocidad, pero cuando 
 Si la curva es muy cerrada y va muy rápido, detactará el cambio de dirección pero es posible que pierda la señal de la línea negra, situación fuera de pista, entonces mantendrá una velociad más reducida y la dirección girada totalmente hasta que recupere la linea y pueda seguir el camino.
 
 
-###Materiales y materiales reciclados:
+### Materiales y materiales reciclados:
 El vehículo utiliza los siguientes materiales reciclados, que se pueden visualizar en las fotos:
 * Chasis totalmente de madera, de una vieja caja de vino
 * La placa que soporta los sensores es una tarjeta comercial tipo tarjeta de crédito.
@@ -66,7 +67,7 @@ Materiales electrónicos:
 * 2 Lipo 18650 de 3,7V
 
 
-###Pista:
+### Pista:
 La pista está montada en un tablero de 2x2m2, de color blanco, en el que se traza una línea negra de 1,9cm de ancho, que será la que marque el circuito a recorrer.
 
 El recorrido del circuito es cerrado, los puntos de salida y llegada son el mismo. Tendrá una longitud aproximada de 4 metros e incluye rectas y curvas de diferentes radios. La curva de menor radio no será inferior a los 125 mm, y la distancia mínima entre dos partes próximas del recorrido no será inferior a los 250 mm. Las medidas y recorrido del circuito no se darán a conocer hasta el comienzo de la prueba.
@@ -76,19 +77,19 @@ Los vehículos (robots) deberán completar un recorrido completo en el menor tie
 * _Foto Pista_
 
 
-###Condiciones iniciales:
+### Condiciones iniciales:
 En el inicio de la competición el vehículo se sitúa centrado sobre la línea del circuito, en la dirección a recorrer. En el momento de saída deberá iniciar el recorrido en el menor tiempo posible sin salirse del circuito y recorriendolo completamente.
 
 
-###Desplazamientos y giros:
+### Desplazamientos y giros:
 Una vez puesto en marcha el vehículo inicia su movimiento a la máxima velocidad, manteniendo la dirección si está centrado. En el momento que detecta que no está centrado, inicia un giro del eje delantero, a través del Microservo SG90 para corregir su posición. Una vez se encuentra centrado de nuevo, el robot devuelve la dirección del eje delantero para continuar en línea recta.
 
 
-###Programa:
+### Programa:
 El programa está realizado con el IDE Arduino, para su programación directa a través de cable USB. En la carpeta software se puede ver el programa comentado. El programa cuenta con una pestaña de "configuración.h", para ajustar los valores por defecto, que dependerán de los motores y sensores utilizados en cada caso, si son diferentes a los de esta construcción.
 
 
-###Construcción:
+### Construcción:
 El resultado final es la progresión de varias experiencias sobre el modelo inicial tabajando únicamente sobre un bastidor de madera, al que fui añadiendo modificaciones según iban apareciendo las compliaciones o para simplificar problemas. El primer vehiculo llevaba motores chinos sobre una plataforma de madera más larga, en la que fui acoplando ejes delanteros de giro de varios coches de juguete, accionados por un microservo y palancas de reenvío. 
 
 Ante el fracaso continuo con el sistema de dirección, especialmente por las holguras y el corto ángulo de giro,  me propuse aprovechar parte de uno de los ejes que habia usado y construir un sistema delantero de direccion, utilizando FreeCad. El resultado espectacular. Un único inconveniente, el vehículo resuta muy largo y limita el ángulo de giro. Las primeras pruebas las hago sin sensores, moviendo el vehículo a través de un control por Bluetooth y comprobando su comportamiento con control manual. Primer objetivo reducir la longitud para mejorar el ángulo de giro, para llegar a los 12,5cm de radio de giro de la Oshwdem.
@@ -102,13 +103,13 @@ El cambio de motores supone tambien la necesidad de un sistema de acople a la ca
 A partir de aquí empiezo a construir la carrocería, dibujando directamente las medidas que tomo en el chasis sobre la madera y cortando con una sierra de calar. Encolo todo con pegamento para madera, lo lijo y lo pinto de color rojo con spray.
 
 
-###Piezas impresas:
+### Piezas impresas:
 * Caja baterías
 * Dirección eje delantero
 * Soporte motores traseros
 
 
-###Referencias:
+### Referencias:
 
 ### Autor:
 

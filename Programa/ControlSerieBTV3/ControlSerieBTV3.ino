@@ -52,11 +52,11 @@ int pos = 0;              // Almacena el valor del servo
 int Freno=0;              // Valor de freno en cada momento
 
 // Variables de sensores analógicos
-int SensorD2=0;
-int SensorD1=0;
-int SensorI1=0;
-int SensorI2=0;
-int Posicion=0;
+int SensorD2=0;  // Sensor más a la derecha
+int SensorD1=0;  // Sensor central derecha
+int SensorI1=0;  // Sensor central izquierda
+int SensorI2=0;  // Sensor central más a la izquierda
+int Posicion=0;  // Estado de la posición de -3 a +3, o 999 fuera linea
 
 
 void setup() {
@@ -165,7 +165,7 @@ void LeemosBT() {
 
 
 //***********************************************
-//****      FUNCIÓN LEEMOS INICIO    PARADA  ****
+//****   FUNCIÓN LEEMOS BOTÓN INICIO PARADA  ****
 //***********************************************
 void LeemosBoton() {
    if(!digitalRead(BOTON)) {

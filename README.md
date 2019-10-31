@@ -44,6 +44,8 @@ Los sensores infrarrojos están montados sobre una placa improvisada, utilizando
 
 ![Placa receptores infrarrojos](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191010_172056_005.jpg "Batería de sensores infrarrojos")
 
+![Esquema conexionado sensores infrarrojos](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Esquema Conexion CNU70.JPG "Esquema de conexionado")
+
 Conociendo la ubicación del vehículo sobre la pista, el sistema de control puede actuar sobre los motores y la dirección para corregir la posición, si es necesario, siendo los giros más cerrados cuanto más desviado está de la posición ideal, que sería cuando el vehículo está centrado.
 
 Si el vehículo está centrado avanza recto a la máxima velocidad, pero cuando llega a una curva, detecta que es un giro por la posición de los sensores y decide reducir la velocidad y girar el eje delantero para corregir la posición.

@@ -1,8 +1,8 @@
 # Tsela
 ## de NacioSystems:
 
-Versión 1.0
-Fecha: 29/10/2019
+Versión 1.3
+Fecha: 31/10/2019
 
 Este proyecto es un vehículo autónomo llamado **Tsela** (Tesela), que es capaz de conducir sin piloto por una pista de *siguelineas*. Realizado por NacioSystems (O Milladoiro):
 

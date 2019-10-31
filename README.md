@@ -27,7 +27,7 @@ Si se toma el control por Bluetooth (9600,N,1), el Autopilot se activa enviando 
 * '0' Para los motores y pone la dirección recta
 * 'C' Toca el claxon
 
-[!Imagen Tesla](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_220630_952.jpg "Tesla en construcción")
+![Imagen Tesla](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_220630_952.jpg "Tesla en construcción")
 
 Los sensores infrarrojos están montados sobre una placa improvisada, utilizando una tarjeta comercial tipo, numerados de izquierda a derecha del 1 al 4. Cuando el vehículo está centrado los sensores centrales 2 y 3 estarían sobre la línea negra, devolviendo muy poca señal al sensor, mientras que el resto de los sensores, 1 y 4 estarían sobre el blanco de la pista, devolviendo mucha señal al sensor. El sensor sobre la pista puede estar en 8 posiciones distintas:
 * 1 Sensor 1 en negro y resto en blanco. Vehículo muy desviado a la izquierda
@@ -39,7 +39,7 @@ Los sensores infrarrojos están montados sobre una placa improvisada, utilizando
 * 7 Sensor 4 en negro y resto en blanco. Vehículo muy desviado a la derecha.
 * 8 Todos los sensores sobre blanco, fuera de pista
 
-[!Placa receptores infrarrojos](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191010_172056_005.jpg "Batería de sensores infrarrojos")
+![Placa receptores infrarrojos](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191010_172056_005.jpg "Batería de sensores infrarrojos")
 
 Conociendo la ubicación del vehículo sobre la pista, el sistema de control puede actuar sobre los motores y la dirección para corregir la posición, si es necesario, siendo los giros más cerrados cuanto más desviado está de la posición ideal cuando el vehículo está centrado.
 
@@ -58,13 +58,13 @@ El vehículo utiliza los siguientes materiales reciclados, que se pueden visuali
 * Las baterías Lipo 18650 son recuperadas de un viejo portátil que iba al desguace
 * Parte de la tornillería es de una vieja impresora HP Lajerjet que tambien se envió al desguace
 
-[!Foto Maderas cortadas](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_194325_094.jpg "Preparando la carrocería")
+![Foto Maderas cortadas](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_194325_094.jpg "Preparando la carrocería")
 
 Otros materiales:
 
 También se han utilizado piezas impresas en 3D, para hacer la dirección, puesto que no servía ninguna dirección adecuada para este vehículo. La dirección es diseñada totalmente por mi, para integrar el Servo SG90, los ejes de dirección metálicos disponibles y las ruedas de Lego. Otras piezas impresas son la caja soporte de las baterías, también diseñada por mi y las piezas soporte de los motores al chasis. Para las piezas impresas he utilizado nueva tornillería de métrica M3.
 
-[!Foto Tsela sin carcasa](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191012_210451_012.jpg "Prototipo 2")
+![Foto Tsela sin carcasa](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191012_210451_012.jpg "Prototipo 2")
 
 Materiales electrónicos:
 
@@ -85,7 +85,7 @@ El recorrido del circuito es cerrado, los puntos de salida y llegada son el mism
 
 Los vehículos (robots) deberán completar un recorrido completo en el menor tiempo posible.
 
-[!Foto Pista](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/PistaTipo.jpg "Modelo Pista")
+![Foto Pista](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/PistaTipo.jpg "Modelo Pista")
 
 
 ### Condiciones iniciales:
@@ -105,17 +105,19 @@ El resultado final es la progresión de varias experiencias sobre el modelo inic
 
 Ante el fracaso continuo con el sistema de dirección, especialmente por las holguras y el corto ángulo de giro,  me propuse aprovechar parte de uno de los ejes que había usado y construir un sistema delantero de dirección, utilizando FreeCad. El resultado espectacular. Un único inconveniente, el vehículo resulta muy largo y limita el ángulo de giro. Las primeras pruebas las hago sin sensores, moviendo el vehículo a través de un control por Bluetooth y comprobando su comportamiento con control manual. Primer objetivo reducir la longitud para mejorar el ángulo de giro, para llegar a los 12,5cm de radio de giro de la Oshwdem.
 
-A esta segunda versión ya le incorporo todos los elementos electrónicos, incluyendo el sensor de líneas. Este sensor iba situado muy avanzado delante de eje de dirección, para anticiparse a las curvas. Después de muchos ajustes, placa controladora, baterías, dirección, driver de motores, vemos que queda espacio para reducir más la longitud del bastidor. Aparece un nuevo problema, en curvas cerradas, el sistema de dirección gira bien, pero la velocidad es muy alta y los motores no tienen la calidad suficiente para mantener el empuje con valores pequeños de PWM. En curvas cerradas el vehiculo se queda por falta de empuje o sale disparado fuera de la pista por mucha potencia en los motores. Decisión, cambiar motores.
+A esta segunda versión ya le incorporo todos los elementos electrónicos, incluyendo el sensor de líneas. Este sensor iba situado muy avanzado delante de eje de dirección, para anticiparse a las curvas. Después de muchos ajustes, placa controladora, baterías, dirección, driver de motores, vemos que queda espacio para reducir más la longitud del bastidor. Aparece un nuevo problema, en curvas cerradas, el sistema de dirección gira bien, pero la velocidad es muy alta y los motores no tienen la calidad suficiente para mantener el empuje con valores pequeños de PWM. En curvas cerradas el vehículo se queda por falta de empuje o sale disparado fuera de la pista por mucha potencia en los motores. Decisión, cambiar motores.
 
-En una nueva versión ya incorporo un soporte para las baterias impreso en 3D y diseñado en FreeCad (Gracias por tus microtutoriales Obijúan)
+En una nueva versión ya incorporo un soporte para las baterías impreso en 3D y diseñado en FreeCad (Gracias por tus microtutoriales Obijúan)
 
-[!Foto portabaterías LiPo](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Soporte%20Baterias%20Lipo.png "Portabaerías")
+![Foto portabaterías LiPo](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Soporte%20Baterias%20Lipo.png "Portabaerías")
 
-El cambio de motores supone tambien la necesidad de un sistema de acople a la carrocería. Se resuelve con un diseño en Freecad de nuevas piezas para imprimir en 3D. En esta versión tambien se comprueba la viabilidad de acercar el sensor para ponerlo debajo del tren delantero. El resultado es prometedor, el vehículo recorre perfectamente circuitos muy complejos sin salirse de la pista. 
+El cambio de motores supone también la necesidad de un sistema de acople a la carrocería. Se resuelve con un diseño en Freecad de nuevas piezas que abrazan lon motores al bastidor de madera y permiten la incorporación de amortiguadores, listas para imprimir en 3D. En esta versión también se comprueba la viabilidad de acercar el sensor para ponerlo debajo del tren delantero. El resultado es prometedor, el vehículo recorre perfectamente circuitos muy complejos sin salirse de la pista. 
 
-[!Nuevo Tesela](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_172438_377.jpg "Nuevo Tsela")
+![Nuevo Tesela](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_172438_377.jpg "Nuevo Tsela")
 
 A partir de aquí empiezo a construir la carrocería, dibujando directamente las medidas que tomo en el chasis sobre la madera y cortando con una sierra de calar. Encolo todo con pegamento para madera, lo lijo y lo pinto de color rojo con spray.
+
+![Foto chasis en construcción](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_220701_045.jpg "Piezas madera cortada")
 
 
 ### Piezas impresas:
@@ -125,6 +127,14 @@ A partir de aquí empiezo a construir la carrocería, dibujando directamente las
 
 
 ### Referencias:
+* https://todohacker.com/tutoriales/tutorial-robot-siguelineas
+* https://store.arduino.cc/arduino-nano
+* https://www.amazon.es/Ociodual-ATmega328P-Extension-Compatible-Arduino/dp/B07FN2Z5K7/ref=sr_1_7?keywords=Arduino+Nano+Shield&qid=1572508808&sr=8-7
+* https://www.amazon.es/HarmonyHappy-L298N-Motor-Drive-Modulo/dp/B07V7DHC2F/ref=sr_1_2_sspa?adgrpid=58915550391&gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW7nMH2KA9twb-7bBBSOtDHfWDAwWROMDDYi8UgLknAD3hGYtXTghWIaAq14EALw_wcB&hvadid=275375934640&hvdev=c&hvlocphy=20272&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=14673444293332309264&hvtargid=kwd-305755956612&hydadcr=11860_1753010&keywords=puente+h+l298n&qid=1572508864&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVEVMWUpaOVRWUzBFJmVuY3J5cHRlZElkPUEwMTEwMDg4MVVBUE4xQTlZNzEwSCZlbmNyeXB0ZWRBZElkPUEwNjY4NzcxMjhLTjJRNVNNWVg3RiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
+* https://tienda.bricogeek.com/motores/113-motor-micro-metal-lp-con-reductora-10-1.html?gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW414ujdRvTcawPlYSsHrevqkNvZurT0J92hZpU_B8HwZAMc4b-R4zYaAlZHEALw_wcB
+* https://www.pccomponentes.com/servo-sg90-micro-servo-9g-compatible-con-arduino?gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW79ytf_hkwBZFFgm8VT65IvFSeHm6rW3BJJC8ZQcVMIFY1y7Rm7s58aAhJQEALw_wcB
+* https://www.amazon.es/s?k=cny70&adgrpid=59837770927&gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW7nGRUqLJyFEBINF4V5HhXnWCjw_Tyta8sMNxcH3XCZ3p53EwSo-q8aAtb9EALw_wcB&hvadid=275348760401&hvdev=c&hvlocphy=20272&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=12513185469951307096&hvtargid=kwd-332007787404&hydadcr=10283_1779472&tag=hydes-21&ref=pd_sl_54ma8e90ll_e
+* https://www.alibaba.com/product-detail/Best-Quality-Of-ISR-Lithium-Rechargeable_60779827115.html?spm=a2700.7735675.normalList.5.773d241cja7gLd&s=p
 
 ### Autor:
 

@@ -35,7 +35,7 @@ Los sensores infrarrojos están montados sobre una placa improvisada, utilizando
 * 1)- Sensor 1 en negro y resto en blanco. Vehículo muy desviado a la izquierda
 * 2)- Sensor 1 y 2 en negro y resto en blanco. Vehículo desviado a la izquierda
 * 3)- Sensor 2 en negro y resto en blanco. Vehículo ligeramente desplazado hacia la izquierda
-* 4)- Sensores 2 y 3 en negro y 1 y 2 en blanco. Vehículo centrado, posición ideal
+* 4)- Sensores 2 y 3 en negro y 1 y 4 en blanco. Vehículo centrado, posición ideal
 * 5)- Sensor 3 en negro y resto en blanco. Vehículo ligeramente desviado a la derecha
 * 6)- Sensor 3 y 4 en negro y resto en blanco. Vehículo desviado a la derecha
 * 7)- Sensor 4 en negro y resto en blanco. Vehículo muy desviado a la derecha.

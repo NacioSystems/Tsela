@@ -20,7 +20,7 @@ El vehículo se enciendo por un interruptor que da tensión al *driver* de los m
 
 A través del puerto serie permite la **conexión remota por _Bluetooth_** y la gestión del vehículo, desactivando el *Autopilot* previamente. En caso de estar activado el _Autopilot_ no seguirá las instrucciones del piloto, salvo que no encuentre una línea a seguir, en ese caso, si encuentra una línea a seguir, tendrá prefrencia el seguimiento de la línea.
 
-Si se toma el control por Bluetooth (9600,N,1), el Autopilot se activa enviando el caracter 'P'. Es recomendable poner la aplicacion Bluetooth en modo repetitivo. (ejemplo Bluetooth spp pro). Otras funciones implementadas para el contros serie son:
+Si se toma el control por Bluetooth (9600,N,1), el Autopilot se activa enviando el caracter 'P'. Es recomendable poner la aplicacion Bluetooth en modo repetitivo, con lo que se consigue girar progresivamente o acelerar mientras se pulsa botón correspondiente de la app. (ejemplo Bluetooth spp pro). Otras funciones implementadas para el contros serie son:
 * 'A' Avanza más rápido, acelera
 * 'R' Reduce la velocidad, decelera
 * 'D' Mueve la dirección hacia la derecha, muy poco respecto de la posicióin actual

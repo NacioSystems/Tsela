@@ -30,7 +30,7 @@ Si se toma el control por Bluetooth (9600,N,1), el Autopilot se puede activar o 
 * '0' Para los motores y pone la dirección recta
 * 'C' Toca el claxon
 
-![Imagen Tesla](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_220630_952.jpg "Tesla en construcción")
+![Imagen Tesla](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_220630_952.jpg "Tsela en construcción")
 
 Los sensores infrarrojos están montados sobre una placa improvisada, utilizando una tarjeta comercial tipo, numerados de izquierda a derecha del 1 al 4. Cuando el vehículo está centrado los sensores centrales 2 y 3 estarían sobre la línea negra, devolviendo muy poca señal al sensor, mientras que el resto de los sensores, 1 y 4 estarían sobre el blanco de la pista, devolviendo mucha señal al sensor. El sensor sobre la pista puede estar en 8 posiciones distintas:
 * 1)- Sensor 1 en negro y resto en blanco. Vehículo muy desviado a la izquierda

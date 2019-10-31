@@ -55,7 +55,7 @@ Si la curva es muy cerrada y va muy rápido, detectará el cambio de dirección 
 
 
 ### Materiales y materiales reciclados:
-El vehículo utiliza los siguientes materiales reciclados, que se pueden visualizar en las fotos:
+El vehículo utiliza los siguientes materiales reciclados, que se pueden visualizar en las imágenes:
 * Chasis y bastidor totalmente de madera, de una vieja caja de vino
 * La placa que soporta los sensores es una tarjeta comercial tipo tarjeta de crédito.
 * Los ejes de la dirección son metálicos de un viejo camión de bomberos de juguete

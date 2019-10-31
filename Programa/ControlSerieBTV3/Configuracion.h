@@ -1,9 +1,11 @@
 
 
 // Pines Botón de inicio / parada y claxon
-#define BOTON 8  // Pulsador de inicio parada, puesto a pullup
-#define CLASON 9 // Pulsador para el claxon, puesto a pullup
-                 // La lectura da siempre positivo, salvo que se pulse el botón
+#define CLAXON 7  // Pulsador para el claxon, puesto a pullup
+#define BOTON  8  // Pulsador de inicio parada, puesto a pullup
+                  // La lectura da siempre positivo, salvo que se pulse el botón
+#define BUZZER 9  // Reservado para poner el altavoz del claxon
+#define CONTROLir // Futuro control de los sensores por este pin
 
 // Definición pines motores
 #define MDA 3  // Negro

@@ -159,7 +159,7 @@ En este momento tengo pendiente de incorporar dos funcionalidades:
 
 *[Sensor infrarrojos CNY70 en Amazon][7]*
 
-*[Baterías Lipo 18650 en Alibaba][8]
+*[Baterías Lipo 18650 en Alibaba][8]*
 
 
 ### Autor:

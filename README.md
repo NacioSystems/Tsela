@@ -145,21 +145,21 @@ En este momento tengo pendiente de incorporar dos funcionalidades:
 
 
 ### Referencias:
-*[Tutorial para construir un robot siguelineas con material reciclado][1]*
+* *[Tutorial para construir un robot siguelineas con material reciclado][1]*
 
-*[Arduino Nano][2]*
+* *[Arduino Nano][2]*
 
-*[Extension Shield Arduino Nano en Amazon][3]*
+* *[Extension Shield Arduino Nano en Amazon][3]*
 
-*[Driver motores, puente H L298N en Amazon][4]*
+* *[Driver motores, puente H L298N en Amazon][4]*
 
-*[Micrometal Gear Motor en BricoGeek][5]*
+* *[Micrometal Gear Motor en BricoGeek][5]*
 
-*[Microservo SG90 en PC Componentes][6]*
+* *[Microservo SG90 en PC Componentes][6]*
 
-*[Sensor infrarrojos CNY70 en Amazon][7]*
+* *[Sensor infrarrojos CNY70 en Amazon][7]*
 
-*[Baterías Lipo 18650 en Alibaba][8]*
+* *[Baterías Lipo 18650 en Alibaba][8]*
 
 
 ### Autor:

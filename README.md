@@ -143,8 +143,9 @@ Se incluyen en los archivos _FreeCad_ el diseño de la carrocería en 3D, por si
 ### Pendiente:
 En este momento tengo pendiente de incorporar dos funcionalidades:
 * Medir el estado de las baterías LiPo 18650, para visar del cambio cuando la tensión baja de 3.7V
-* Incorporar un Buzzer para hacer de claxon, a través de Bluetooth o por pulsación del segundo botón
+* Incorporar un Buzzer para hacer de claxon en pin 9, a través de Bluetooth o por pulsación del segundo botón
 * Incorporar luces *LED* de posición delanteras (blancas) y traseras (rojas), así como de dirección (intermitencias amarillas)
+* Controlar el encendido y apagado de los sensores IR mediante un transistor controlado por pin 10
 
 
 ### Referencias:

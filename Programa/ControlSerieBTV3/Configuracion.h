@@ -12,8 +12,13 @@
 #define MIB 6  // Negro
 
 // Definición pines controles manuales y servo
-#define PinDir   A0  // Entrada analógica del control de velocidad
-#define PinVel   A1  // Entrada analógica del control de velocidad
+// Pines sensores infrarrojos
+#define SIRD2 A1
+#define SIRD1 A2
+#define SIRI1 A3
+#define SIRI2 A4
+
+#define BATERÍA  A0  // Pin analógico para medición de batería. Divisor con dos resistencias de 10K
 #define PinServo  4  // Salida control servo
 #define central  85  // Es la configuraion del servo en posición central
 #define margen   35  // Apertura lateral desde la posición central. Límite

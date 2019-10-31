@@ -188,10 +188,10 @@ void LeemosBoton() {
 void LeemosIR() {
 
  // Leemos las entradas, menos de 100 está en la línea:
-      SensorD2=analogRead(A1);
-      SensorD1=analogRead(A2);
-      SensorI1=analogRead(A3);
-      SensorI2=analogRead(A4);
+      SensorD2=analogRead(SIRD2);
+      SensorD1=analogRead(SIRD1);
+      SensorI1=analogRead(SIRI1);
+      SensorI2=analogRead(SIRI2);
   
 
    // Ponemos el valor

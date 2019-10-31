@@ -145,6 +145,8 @@ En este momento tengo pendiente de incorporar dos funcionalidades:
 
 
 ### Referencias:
+* *[Página Web **OSHWDEM**][9]*
+
 * *[Tutorial para construir un robot siguelineas con material reciclado][1]*
 
 * *[Arduino Nano][2]*
@@ -179,6 +181,7 @@ Todos estos productos están liberados mediante Creative Commons Attribution-Sha
 [6]: https://www.pccomponentes.com/servo-sg90-micro-servo-9g-compatible-con-arduino?gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW79ytf_hkwBZFFgm8VT65IvFSeHm6rW3BJJC8ZQcVMIFY1y7Rm7s58aAhJQEALw_wcB
 [7]: https://www.amazon.es/s?k=cny70&adgrpid=59837770927&gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW7nGRUqLJyFEBINF4V5HhXnWCjw_Tyta8sMNxcH3XCZ3p53EwSo-q8aAtb9EALw_wcB&hvadid=275348760401&hvdev=c&hvlocphy=20272&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=12513185469951307096&hvtargid=kwd-332007787404&hydadcr=10283_1779472&tag=hydes-21&ref=pd_sl_54ma8e90ll_e
 [8]: https://www.alibaba.com/product-detail/Best-Quality-Of-ISR-Lithium-Rechargeable_60779827115.html?spm=a2700.7735675.normalList.5.773d241cja7gLd&s=p
+[9]: https://oshwdem.org/
 
 
 

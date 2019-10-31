@@ -57,7 +57,7 @@ El vehículo utiliza los siguientes materiales reciclados, que se pueden visuali
 * Los ejes de la dirección son metálicos de un viejo camión de bomberos de juguete
 * Las ruedas son de un _quad_ Lego en desuso
 * Parte del cableado está basado en líneas de pares telefónicos reutilizados y cable bililar de audio
-* Las baterías Lipo 18650 son recuperadas de un viejo portátil que iba al desguacé
+* Las baterías Lipo 18650 son recuperadas de un viejo portátil que iba al desguace
 * Parte de la tornillería es de una vieja impresora HP Lajerjet que tambien se envió al desguace
 
 ![Foto Maderas cortadas](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_194325_094.jpg "Preparando la carrocería")
@@ -65,6 +65,9 @@ El vehículo utiliza los siguientes materiales reciclados, que se pueden visuali
 Otros materiales:
 
 También se han utilizado piezas impresas en 3D, para hacer la dirección, puesto que no servía ninguna dirección adecuada para este vehículo. La dirección es diseñada totalmente por mi, para integrar el Servo SG90, los ejes de dirección metálicos disponibles y las ruedas de Lego. Otras piezas impresas son la caja soporte de las baterías, también diseñada por mi y las piezas soporte de los motores al chasis. Para las piezas impresas he utilizado nueva tornillería de métrica M3.
+
+![Diseño sistema dirección](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Modelo%20Eje%20Delantero.JPG "Eje delantero")
+
 
 ![Foto Tsela sin carcasa](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191012_210451_012.jpg "Prototipo 2")
 
@@ -122,6 +125,9 @@ El cambio de motores supone también la necesidad de un sistema de acople a la c
 A partir de aquí empiezo a construir la carrocería, dibujando directamente las medidas que tomo en el chasis sobre la madera y cortando con una sierra de calar. Encolo todo con pegamento para madera, lo lijo y lo pinto de color rojo con spray.
 
 ![Foto chasis en construcción](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_220701_045.jpg "Piezas madera cortada")
+
+Se incluyen en los archivos FreeCad el diseño de la carrocería en 3D, por si alguien quiere ver las dimensiones de las piezas o imprimirla en material plástico en vez de recortar madera.
+![Diseño carrocería](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Captura%20de%20pantalla%202019-10-30%2022.52.08.png "Carrocería")
 
 
 ### Piezas impresas:

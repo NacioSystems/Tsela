@@ -141,7 +141,7 @@ Se incluyen en los archivos _FreeCad_ el diseño de la carrocería en 3D, por si
 * Soporte motores traseros
 
 ### Pendiente:
-En este momento tengo pendiente de incorporar dos funcionalidades:
+En este momento tengo pendiente de incorporar otras funcionalidades:
 * Medir el estado de las baterías LiPo 18650, para informar del cambio de baterías cuando la tensión baja de 3.7V
 * Incorporar un Buzzer para hacer de claxon en pin 9, a través de Bluetooth o por pulsación del segundo botón
 * Incorporar luces *LED* de posición delanteras (blancas) y traseras (rojas), así como de dirección (intermitencias amarillas)

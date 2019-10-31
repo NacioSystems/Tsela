@@ -10,6 +10,8 @@ Es un proyecto que tenía pensado desde hace un par de años, al ver las competi
 
 Realmente al ver el resultado final, y las aprariencias del modelo, se me ocurrió llamarle Nisan Patrol, pero ese nombre ya estaba pillado. Me acordé también de Nicola Tesla, un pionero de los generadores eléctricos, pero el nombre tambien estaba pillado. Entonces recordé que las teselas, esos elementos geométricos que forman parte de la naturaleza, que fueron uno de los retos de la Oshwdem hace un par de años, podrían ser la clave. Así que me pareció muy apropiado el nombre de Tesela. Para abreviar, _**Tsela, Modelo 3, con Autopilot**_. :-)
 
+> Si se quiere construir una máquina del tiempo, por qué no hacerla con clase
+
 - - -
 
 ### Introducción:
@@ -144,19 +146,33 @@ En este momento tengo pendiente de incorporar dos funcionalidades:
 
 
 ### Referencias:
-* https://todohacker.com/tutoriales/tutorial-robot-siguelineas
-* https://store.arduino.cc/arduino-nano
-* https://www.amazon.es/Ociodual-ATmega328P-Extension-Compatible-Arduino/dp/B07FN2Z5K7/ref=sr_1_7?keywords=Arduino+Nano+Shield&qid=1572508808&sr=8-7
-* https://www.amazon.es/HarmonyHappy-L298N-Motor-Drive-Modulo/dp/B07V7DHC2F/ref=sr_1_2_sspa?adgrpid=58915550391&gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW7nMH2KA9twb-7bBBSOtDHfWDAwWROMDDYi8UgLknAD3hGYtXTghWIaAq14EALw_wcB&hvadid=275375934640&hvdev=c&hvlocphy=20272&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=14673444293332309264&hvtargid=kwd-305755956612&hydadcr=11860_1753010&keywords=puente+h+l298n&qid=1572508864&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVEVMWUpaOVRWUzBFJmVuY3J5cHRlZElkPUEwMTEwMDg4MVVBUE4xQTlZNzEwSCZlbmNyeXB0ZWRBZElkPUEwNjY4NzcxMjhLTjJRNVNNWVg3RiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
-* https://tienda.bricogeek.com/motores/113-motor-micro-metal-lp-con-reductora-10-1.html?gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW414ujdRvTcawPlYSsHrevqkNvZurT0J92hZpU_B8HwZAMc4b-R4zYaAlZHEALw_wcB
-* https://www.pccomponentes.com/servo-sg90-micro-servo-9g-compatible-con-arduino?gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW79ytf_hkwBZFFgm8VT65IvFSeHm6rW3BJJC8ZQcVMIFY1y7Rm7s58aAhJQEALw_wcB
-* https://www.amazon.es/s?k=cny70&adgrpid=59837770927&gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW7nGRUqLJyFEBINF4V5HhXnWCjw_Tyta8sMNxcH3XCZ3p53EwSo-q8aAtb9EALw_wcB&hvadid=275348760401&hvdev=c&hvlocphy=20272&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=12513185469951307096&hvtargid=kwd-332007787404&hydadcr=10283_1779472&tag=hydes-21&ref=pd_sl_54ma8e90ll_e
-* https://www.alibaba.com/product-detail/Best-Quality-Of-ISR-Lithium-Rechargeable_60779827115.html?spm=a2700.7735675.normalList.5.773d241cja7gLd&s=p
+*[Tutorial para construir un robot siguelineas con material reciclado][1]*
+[1]: https://todohacker.com/tutoriales/tutorial-robot-siguelineas
+
+*[Arduino Nano][2]*
+[2]: https://store.arduino.cc/arduino-nano
+
+*[Extension Shield Arduino Nano en Amazon][3]*
+[3] https://www.amazon.es/Ociodual-ATmega328P-Extension-Compatible-Arduino/dp/B07FN2Z5K7/ref=sr_1_7?keywords=Arduino+Nano+Shield&qid=1572508808&sr=8-7
+
+*[Driver motores, puente H L298N en Amazon][4]*
+[4]: https://www.amazon.es/HarmonyHappy-L298N-Motor-Drive-Modulo/dp/B07V7DHC2F/ref=sr_1_2_sspa?adgrpid=58915550391&gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW7nMH2KA9twb-7bBBSOtDHfWDAwWROMDDYi8UgLknAD3hGYtXTghWIaAq14EALw_wcB&hvadid=275375934640&hvdev=c&hvlocphy=20272&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=14673444293332309264&hvtargid=kwd-305755956612&hydadcr=11860_1753010&keywords=puente+h+l298n&qid=1572508864&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVEVMWUpaOVRWUzBFJmVuY3J5cHRlZElkPUEwMTEwMDg4MVVBUE4xQTlZNzEwSCZlbmNyeXB0ZWRBZElkPUEwNjY4NzcxMjhLTjJRNVNNWVg3RiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
+
+*[Micrometal Gear Motor en BricoGeek][5]*
+[5]: https://tienda.bricogeek.com/motores/113-motor-micro-metal-lp-con-reductora-10-1.html?gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW414ujdRvTcawPlYSsHrevqkNvZurT0J92hZpU_B8HwZAMc4b-R4zYaAlZHEALw_wcB
+
+*[Microservo SG90 en PC Componentes][6]*
+[6]: https://www.pccomponentes.com/servo-sg90-micro-servo-9g-compatible-con-arduino?gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW79ytf_hkwBZFFgm8VT65IvFSeHm6rW3BJJC8ZQcVMIFY1y7Rm7s58aAhJQEALw_wcB
+
+*[Sensor infrarrojos CNY70 en Amazon][7]*
+[7]: https://www.amazon.es/s?k=cny70&adgrpid=59837770927&gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW7nGRUqLJyFEBINF4V5HhXnWCjw_Tyta8sMNxcH3XCZ3p53EwSo-q8aAtb9EALw_wcB&hvadid=275348760401&hvdev=c&hvlocphy=20272&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=12513185469951307096&hvtargid=kwd-332007787404&hydadcr=10283_1779472&tag=hydes-21&ref=pd_sl_54ma8e90ll_e
+
+*[Baterías Lipo 18650 en Alibaba][8]
+[8]: https://www.alibaba.com/product-detail/Best-Quality-Of-ISR-Lithium-Rechargeable_60779827115.html?spm=a2700.7735675.normalList.5.773d241cja7gLd&s=p
 
 ### Autor:
 
 **Ignacio Otero**
-
 
 
 ### Licencia:

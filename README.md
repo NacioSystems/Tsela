@@ -32,14 +32,14 @@ Si se toma el control por Bluetooth (9600,N,1), el Autopilot se activa enviando 
 ![Imagen Tesla](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_220630_952.jpg "Tesla en construcción")
 
 Los sensores infrarrojos están montados sobre una placa improvisada, utilizando una tarjeta comercial tipo, numerados de izquierda a derecha del 1 al 4. Cuando el vehículo está centrado los sensores centrales 2 y 3 estarían sobre la línea negra, devolviendo muy poca señal al sensor, mientras que el resto de los sensores, 1 y 4 estarían sobre el blanco de la pista, devolviendo mucha señal al sensor. El sensor sobre la pista puede estar en 8 posiciones distintas:
-* 1 Sensor 1 en negro y resto en blanco. Vehículo muy desviado a la izquierda
-* 2 Sensor 1 y 2 en negro y resto en blanco. Vehículo desviado a la izquierda
-* 3 Sensor 2 en negro y resto en blanco. Vehículo ligeramente desplazado hacia la izquierda
-* 4 Sensores 2 y 3 en negro y 1 y 2 en blanco. Vehículo centrado, posición ideal
-* 5 Sensor 3 en negro y resto en blanco. Vehículo ligeramente desviado a la derecha
-* 6 Sensor 3 y 4 en negro y resto en blanco. Vehículo desviado a la derecha
-* 7 Sensor 4 en negro y resto en blanco. Vehículo muy desviado a la derecha.
-* 8 Todos los sensores sobre blanco, fuera de pista
+* 1)- Sensor 1 en negro y resto en blanco. Vehículo muy desviado a la izquierda
+* 2)- Sensor 1 y 2 en negro y resto en blanco. Vehículo desviado a la izquierda
+* 3)- Sensor 2 en negro y resto en blanco. Vehículo ligeramente desplazado hacia la izquierda
+* 4)- Sensores 2 y 3 en negro y 1 y 2 en blanco. Vehículo centrado, posición ideal
+* 5)- Sensor 3 en negro y resto en blanco. Vehículo ligeramente desviado a la derecha
+* 6)- Sensor 3 y 4 en negro y resto en blanco. Vehículo desviado a la derecha
+* 7)- Sensor 4 en negro y resto en blanco. Vehículo muy desviado a la derecha.
+* 8)- Todos los sensores sobre blanco, fuera de pista
 
 ![Placa receptores infrarrojos](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191010_172056_005.jpg "Batería de sensores infrarrojos")
 

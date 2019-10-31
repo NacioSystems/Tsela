@@ -173,7 +173,7 @@ Todos estos productos están liberados mediante Creative Commons Attribution-Sha
 
 [1]: https://todohacker.com/tutoriales/tutorial-robot-siguelineas
 [2]: https://store.arduino.cc/arduino-nano
-[3] https://www.amazon.es/Ociodual-ATmega328P-Extension-Compatible-Arduino/dp/B07FN2Z5K7/ref=sr_1_7?keywords=Arduino+Nano+Shield&qid=1572508808&sr=8-7
+[3]: https://www.amazon.es/Ociodual-ATmega328P-Extension-Compatible-Arduino/dp/B07FN2Z5K7/ref=sr_1_7?keywords=Arduino+Nano+Shield&qid=1572508808&sr=8-7
 [4]: https://www.amazon.es/HarmonyHappy-L298N-Motor-Drive-Modulo/dp/B07V7DHC2F/ref=sr_1_2_sspa?adgrpid=58915550391&gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW7nMH2KA9twb-7bBBSOtDHfWDAwWROMDDYi8UgLknAD3hGYtXTghWIaAq14EALw_wcB&hvadid=275375934640&hvdev=c&hvlocphy=20272&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=14673444293332309264&hvtargid=kwd-305755956612&hydadcr=11860_1753010&keywords=puente+h+l298n&qid=1572508864&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVEVMWUpaOVRWUzBFJmVuY3J5cHRlZElkPUEwMTEwMDg4MVVBUE4xQTlZNzEwSCZlbmNyeXB0ZWRBZElkPUEwNjY4NzcxMjhLTjJRNVNNWVg3RiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
 [5]: https://tienda.bricogeek.com/motores/113-motor-micro-metal-lp-con-reductora-10-1.html?gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW414ujdRvTcawPlYSsHrevqkNvZurT0J92hZpU_B8HwZAMc4b-R4zYaAlZHEALw_wcB
 [6]: https://www.pccomponentes.com/servo-sg90-micro-servo-9g-compatible-con-arduino?gclid=Cj0KCQjwjOrtBRCcARIsAEq4rW79ytf_hkwBZFFgm8VT65IvFSeHm6rW3BJJC8ZQcVMIFY1y7Rm7s58aAhJQEALw_wcB

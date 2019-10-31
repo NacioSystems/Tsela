@@ -18,7 +18,7 @@ El chasis del vehículo está construido básicamente en madera, utilizando sobr
 
 El vehículo se enciendo por un interruptor que da tensión al *driver* de los motores y a la placa Arduino. La marcha se inicia pulsando un interruptor que pone el vehículo en estado *Autopilot*, iniciando el movimiento hacia adelante y leyendo lo sensores infrarrojos. En función de la señal que reciba de los sensores, en caso de no estar centrado sobre la línea, manda una señal al microservo de la dirección para corregir la posición y centrarse en la línea.
 
-A través del puerto serie permite la conexión remota por Bluetooth y la gestión del vehículo, desactivando el *Autopilot* previamente.
+A través del puerto serie permite la conexión remota por Bluetooth y la gestión del vehículo, desactivando el *Autopilot* previamente. En caso de estar activado el _Autopilot_ no seguirá las instrucciones del piloto, salvo que no encuentre una línea a seguir, en ese caso, si encuentra una línea a seguir, tendrá prefrencia el seguimiento de la línea.
 
 Si se toma el control por Bluetooth (9600,N,1), el Autopilot se activa enviando el caracter 'P'. Es recomendable poner la aplicacion Bluetooth en modo repetitivo. (ejemplo Bluetooth spp pro). Otras funciones implementadas para el contros serie son:
 * 'A' Avanza más rápido, acelera

@@ -1,10 +1,11 @@
 
 
-// Botón de inicio / parada
-#define BOTON 8 // Pulsador de inicio parada, puesto a pullup
-                // La lectura da siempre positivo, salvo que se pulse el botón
+// Pines Botón de inicio / parada y claxon
+#define BOTON 8  // Pulsador de inicio parada, puesto a pullup
+#define CLASON 9 // Pulsador para el claxon, puesto a pullup
+                 // La lectura da siempre positivo, salvo que se pulse el botón
 
-// Definición pine motores
+// Definición pines motores
 #define MDA 3  // Negro
 #define MDB 5  // Blanco
 #define MIA 11 // Violeta

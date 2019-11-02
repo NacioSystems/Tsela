@@ -63,6 +63,7 @@ El vehículo utiliza los siguientes materiales reciclados, que se pueden visuali
 * Parte del cableado está basado en líneas de pares telefónicos reutilizados y cable bililar de audio
 * Las baterías Lipo 18650 son recuperadas de un viejo portátil que iba al desguace
 * Parte de la tornillería es de una vieja impresora HP Lajerjet que tambien se envió al desguace
+* Los bornes y muelles del portabaterías son reutilizados de un control remoto de TV que no funcionaba
 
 ![Foto Maderas cortadas](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_194325_094.jpg "Preparando la carrocería")
 

@@ -136,7 +136,7 @@ A partir de aquí empiezo a construir la carrocería, dibujando directamente las
 Se incluyen en los archivos _FreeCad_ el diseño de la carrocería en 3D, por si alguien quiere ver las dimensiones de las piezas o imprimirla en material plástico en vez de recortar madera.
 ![Diseño carrocería](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Captura%20de%20pantalla%202019-10-30%2022.52.08.png "Carrocería")
 
-![Montaje carrocería](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Captura%20de%20pantalla%202019-10-30%2022.52.08.png "Montaje carrocería")
+![Montaje carrocería](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Bisagras.JPG "Montaje carrocería")
 
 
 ### Piezas impresas:

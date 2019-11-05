@@ -103,10 +103,9 @@ void loop() {
       
   // Calculamos el freno en función del desvío del sensor a la línea negra
   // El freno será 0 cuando SalidaPinDir = central
-  // Cuando el freno el máximo para el motor correspondiente
   // El freno será la velocidad cuando SalidaPinDir=central+/-margen
   // -SalidaPinVel < Freno < SalidaPinVel
-  Freno= SalidaPinVel*(central-SalidaPinDir)/margen;   //3*(central-SalidaPinDir); // Máximo de 3 veces el margen
+  Freno= SalidaPinVel*(central-SalidaPinDir)/margen;   // Aseguramos freno en el margen establecido
   Serial.print("\t Freno=");
   Serial.print("\t");
   Serial.println(Freno);  
@@ -118,11 +117,13 @@ void loop() {
          Vel_Motor_I=SalidaPinVel-Freno;
          }
   
-   // SI EL FRENO ES NEGATIVO MOVIMIENTo A LA DERECHA
+   // SI EL FRENO ES NEGATIVO MOVIMIENTO A LA DERECHA
    else {
          Vel_Motor_D=SalidaPinVel+Freno;
          Vel_Motor_I=SalidaPinVel;
          }
+  // Solo tocamos la velocidad de los motores si estamos en Autopilot
+  // En caso contrario es a través de BT como se controla la velocidad
    if(Autopilot) PonemosMotores(Vel_Motor_I,Vel_Motor_D);      
   
   // 

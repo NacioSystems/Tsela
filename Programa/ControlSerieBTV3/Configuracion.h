@@ -7,7 +7,7 @@
 #define BUZZER 9  // Reservado para poner el altavoz del claxon
 #define CONTROLir // Futuro control de los sensores por este pin
 
-// Definición pines motores
+// Definición pines motores PWM
 #define MDA 3  // Negro
 #define MDB 5  // Blanco
 #define MIA 11 // Violeta
@@ -20,11 +20,11 @@
 #define SIRI1 A3
 #define SIRI2 A4
 
-#define BATERÍA  A0  // Pin analógico para medición de batería. Divisor con dos resistencias de 10K
+#define BATERIA  A0  // Pin analógico para medición de batería. Divisor con dos resistencias de 10K
 #define PinServo  4  // Salida control servo
 #define central  85  // Es la configuraion del servo en posición central
 #define margen   35  // Apertura lateral desde la posición central. Límite
-#define retardo  20  // Posible retardo en los buclesÇ
+#define retardo  20  // Posible retardo en los bucles
 
 // Lecturas de línea
 #define NEGRO 100    // Por debajo de 100 es color negro

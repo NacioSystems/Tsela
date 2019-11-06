@@ -61,6 +61,7 @@ El vehículo utiliza los siguientes materiales reciclados, que se pueden visuali
 * La placa que soporta los sensores es una tarjeta comercial tipo tarjeta de crédito.
 * Los ejes de la dirección son metálicos de un viejo camión de bomberos de juguete
 * Las ruedas son de un _quad_ Lego en desuso
+* El altavoz _Buzzer_, también recuperado de un viejo juguete, que va en el portón trasero
 * Parte del cableado está basado en líneas de pares telefónicos reutilizados y cable bililar de audio
 * Las baterías LiPo 18650 son recuperadas de un viejo portátil que iba al desguace
 * Parte de la tornillería es de una vieja impresora HP Laserjet que tambien se envió al desguace

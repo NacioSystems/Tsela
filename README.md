@@ -86,7 +86,7 @@ Materiales electrónicos:
 * 2 Micrometal Gear. Micromotores 6V
 * Microservo SG90
 * 4 Sensores infrarrojos CNY70
-* 2 Lipo 18650 de 3,7V
+* 2 LiPo 18650 de 3,7V
 * 2 pulsadores y un micorinterruptor
 * Buzzer
 * Algunas resistencias para la polarización de los CNY70 y la medición del estado de las baterías (sin implementar por A0)

@@ -83,13 +83,13 @@ También se han utilizado piezas impresas en 3D, para hacer la dirección, puest
 
 Materiales electrónicos:
 
-* Arduino Nano
-* Extension Board Arduino Nano
-* Puente H L298N
-* 2 Micrometal Gear. Micromotores 6V
-* Microservo SG90
-* 4 Sensores infrarrojos CNY70
-* 2 LiPo 18650 de 3,7V
+* [Arduino Nano][2]
+* [Extension Board Arduino Nano][3]
+* [Puente H L298N][4]
+* [2 x Micrometal Gear. Micromotores 6V][5]
+* [Microservo SG90][6]
+* [4 Sensores infrarrojos CNY70][7]
+* [2 LiPo 18650 de 3,7V][8]
 * 2 pulsadores y un micorinterruptor
 * Buzzer
 * Algunas resistencias para la polarización de los CNY70 y la medición del estado de las baterías (sin implementar por A0)
@@ -147,9 +147,13 @@ Se incluyen en los archivos _FreeCad_ el diseño de la carrocería en 3D, por si
 
 
 ### Piezas impresas:
-* Caja baterías
-* Dirección eje delantero
-* Soporte motores traseros
+* [Caja baterías][10]
+* [Dirección eje delantero][11]
+* [Soporte motores traseros][12]
+
+[10]: https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Soporte%20Baterias%20Lipo.png
+[11]: https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Modelo%20Eje%20Delantero.JPG
+[12]: https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Soporte%20Micromotores.png
 
 ### Pendiente:
 En este momento tengo pendiente de incorporar otras funcionalidades:

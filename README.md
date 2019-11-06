@@ -131,11 +131,14 @@ El cambio de motores supone también la necesidad de un sistema de acople a la c
 
 ![Nuevo Tesela](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_172438_377.jpg "Nuevo Tsela")
 
-A partir de aquí empiezo a construir la carrocería, dibujando directamente las medidas que tomo en el chasis sobre la madera y cortando con una sierra de calar. Unimos las piezas con cola blanca para madera, lo lijo y lo pinto de color rojo con spray. El portón trasero es abatible, lo que permite acceder al puerto USB para la programación del Arduino Nano. Tambien se abre el capó delantero, dando acceso al *driver* de los motores, y el botón de desconexión del *driver*, muy práctico para hacer pruebas sobre la línea sin moverse.
+A partir de aquí empiezo a construir la carrocería, dibujando directamente las medidas que tomo en el chasis sobre la madera y cortando con una sierra de calar. Unimos las piezas con cola blanca para madera, lo lijo y lo pinto de color rojo con _spray_. El portón trasero es abatible, lo que permite acceder al puerto USB para la programación del Arduino Nano. Tambien se abre el capó delantero, dando acceso al *driver* de los motores, y el botón de desconexión del *driver*, muy práctico para hacer pruebas sobre la línea sin moverse.
 
 ![Foto chasis en construcción](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_220701_045.jpg "Piezas madera cortada")
 
+En esta versión se incorporan dos botones en el techo del vehículo, uno, el de la izquierda si miramos en el sentido de avance, es el que activa y desactiva el _Autopilot_, lo que permite el arranque y parada en competición. El otro, el de la derecha y que en la actualidad activa el _claxón_, está pensado para futuras ampliaciones, encendido de luces, cambio de estado, etc.
+
 Se incluyen en los archivos _FreeCad_ el diseño de la carrocería en 3D, por si alguien quiere ver las dimensiones de las piezas o imprimirla en material plástico en vez de recortar madera.
+
 ![Diseño carrocería](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Captura%20de%20pantalla%202019-10-30%2022.52.08.png "Carrocería")
 
 ![Montaje carrocería](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Bisagras.JPG "Montaje carrocería")

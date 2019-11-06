@@ -10,6 +10,7 @@ Es un proyecto que tenía pensado desde hace un par de años, al ver las competi
 
 Realmente al ver el resultado final, y las aprariencias del modelo, se me ocurrió llamarle Nisan Patrol, pero ese nombre ya estaba pillado. Me acordé también de Nicola Tesla, un pionero de los generadores eléctricos, pero el nombre tambien estaba pillado. Entonces recordé que las teselas, esos elementos geométricos que forman parte de la naturaleza, que fueron uno de los retos de la Oshwdem hace un par de años, podrían ser la clave. Así que me pareció muy apropiado el nombre de Tesela. Para abreviar, _**Tsela, Modelo 3, con Autopilot**_. :-)
 
+![Tesla](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Tsela1.JPG "Tsela M3 con Autopilot")
 
 - - -
 
@@ -61,10 +62,10 @@ El vehículo utiliza los siguientes materiales reciclados, que se pueden visuali
 * Los ejes de la dirección son metálicos de un viejo camión de bomberos de juguete
 * Las ruedas son de un _quad_ Lego en desuso
 * Parte del cableado está basado en líneas de pares telefónicos reutilizados y cable bililar de audio
-* Las baterías Lipo 18650 son recuperadas de un viejo portátil que iba al desguace
-* Parte de la tornillería es de una vieja impresora HP Lajerjet que tambien se envió al desguace
+* Las baterías LiPo 18650 son recuperadas de un viejo portátil que iba al desguace
+* Parte de la tornillería es de una vieja impresora HP Laserjet que tambien se envió al desguace
 * Los bornes y muelles del portabaterías son reutilizados de un control remoto de TV que no funcionaba
-* Para las bisabras del portón trasero y del capó delantero utilizo alfileres del empaquetado de los que traen la camisas de vestir
+* Para las bisagras del portón trasero y del capó delantero utilizo alfileres del empaquetado de los que traen la camisas de vestir
 
 ![Foto Maderas cortadas](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_194325_094.jpg "Preparando la carrocería")
 
@@ -129,7 +130,7 @@ El cambio de motores supone también la necesidad de un sistema de acople a la c
 
 ![Nuevo Tesela](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_172438_377.jpg "Nuevo Tsela")
 
-A partir de aquí empiezo a construir la carrocería, dibujando directamente las medidas que tomo en el chasis sobre la madera y cortando con una sierra de calar. Unimos las piezas con cola blanca para madera, lo lijo y lo pinto de color rojo con spray. El portón trasero es babatible, lo que permite acceder al puerto USB para la programación del Arduino Nano. Tambien se abre el capó delantero, dando acceso al *driver* de los motores, y el botón de desconexión del *driver*, muy práctico para hacer pruebas sobre la línea sin moverse.
+A partir de aquí empiezo a construir la carrocería, dibujando directamente las medidas que tomo en el chasis sobre la madera y cortando con una sierra de calar. Unimos las piezas con cola blanca para madera, lo lijo y lo pinto de color rojo con spray. El portón trasero es abatible, lo que permite acceder al puerto USB para la programación del Arduino Nano. Tambien se abre el capó delantero, dando acceso al *driver* de los motores, y el botón de desconexión del *driver*, muy práctico para hacer pruebas sobre la línea sin moverse.
 
 ![Foto chasis en construcción](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_220701_045.jpg "Piezas madera cortada")
 

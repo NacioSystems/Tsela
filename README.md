@@ -10,7 +10,7 @@ Es un proyecto que tenía pensado desde hace un par de años, al ver las competi
 
 Realmente al ver el resultado final, y las aprariencias del modelo, se me ocurrió llamarle Nisan Patrol, pero ese nombre ya estaba pillado. Me acordé también de Nicola Tesla, un pionero de los generadores eléctricos, pero el nombre tambien estaba pillado. Entonces recordé que las teselas, esos elementos geométricos que forman parte de la naturaleza, que fueron uno de los retos de la Oshwdem hace un par de años, podrían ser la clave. Así que me pareció muy apropiado el nombre de Tesela. Para abreviar, _**Tsela, Modelo 3, con Autopilot**_. :-)
 
-![Tesla](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Tsela1.JPG "Tsela M3 con Autopilot")
+:![Tesla](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Tsela1.JPG "Tsela M3 con Autopilot"):
 
 - - -
 

@@ -69,6 +69,7 @@ El vehículo utiliza los siguientes materiales reciclados, que se pueden visuali
 * Parte de la tornillería es de una vieja impresora HP Laserjet que tambien se envió al desguace
 * Los bornes y muelles del portabaterías son reutilizados de un control remoto de TV que no funcionaba
 * Para las bisagras del portón trasero y del capó delantero utilizo alfileres del empaquetado de los que traen la camisas de vestir
+* Los cristales tintados son trozos recortados de una separata de plástico, de las que se utilizan en carpetas de anillas perforadas.
 
 ![Foto Maderas cortadas](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_194325_094.jpg "Preparando la carrocería")
 

@@ -118,7 +118,6 @@ Una vez puesto en marcha el vehículo inicia su movimiento a la máxima velocida
 ### Programa:
 El programa está realizado con el IDE Arduino, para su programación directa a través de cable USB. En la carpeta software se puede ver el programa comentado. El programa cuenta con una pestaña de _"configuracion.h"_, en donde está el _pineado_ para las conexiones con el Arduino (sensores, microservo, botones, buzzer) para ajustar los valores por defecto, que dependerán de los motores y sensores utilizados en cada caso, si son diferentes a los de esta construcción. El programa está estructurado y comentado con lo que resulta fácil su comprensión, mantenimiento y modificación.
 
-
 ### Construcción:
 El resultado final es la progresión de varias experiencias sobre el modelo inicial trabajando únicamente sobre un bastidor de madera, al que fui añadiendo modificaciones según iban apareciendo las complicaciones o para simplificar problemas. El primer vehículo llevaba motores chinos sobre una plataforma de madera más larga, en la que fui acoplando ejes delanteros de giro de varios coches de juguete, accionados por un microservo y palancas de reenvío. 
 
@@ -188,6 +187,9 @@ En este momento tengo pendiente de incorporar otras funcionalidades:
 
 **Ignacio Otero**
 
+### Agradecimientos:
+
+Muchas gracias **Bea** por tu colaboración en la revisión y corrección de esta página.
 
 ### Licencia:
 

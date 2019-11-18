@@ -129,9 +129,20 @@ En una nueva versión ya incorporo un soporte para las baterías impreso en 3D y
 
 ![Foto portabaterías LiPo](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/Soporte%20Baterias%20Lipo.png "Portabaerías")
 
-El cambio de motores supone también la necesidad de un sistema de acople a la carrocería. Se resuelve con un diseño en _Freecad_ de nuevas piezas que abrazan lon motores al bastidor de madera y permiten la incorporación de amortiguadores, listas para imprimir en 3D. En esta versión también se comprueba la viabilidad de acercar el sensor para ponerlo debajo del tren delantero. El resultado es prometedor, el vehículo recorre perfectamente circuitos muy complejos sin salirse de la pista. 
+El cambio de motores supone también la necesidad de un sistema de acople a la carrocería. Se resuelve con un diseño en _Freecad_ de nuevas piezas que abrazan lon motores al bastidor de madera y permiten la incorporación de amortiguadores, listas para imprimir en 3D. En esta versión también se comprueba la viabilidad de acercar el sensor para ponerlo debajo del tren delantero. El resultado es prometedor, el vehículo recorre perfectamente circuitos muy complejos sin salirse de la pista, aunque todavía pegando bandazos en la dirección. 
 
 ![Nuevo Tesela](https://github.com/NacioSystems/Tsela/blob/master/Imagenes/IMG_20191029_172438_377.jpg "Nuevo Tsela")
+
+Para el ajuste de los motores incorporo una bola metálica delantera que levanta el tren de dirección. De esta manera Tseo puede funcionar siguiendo las lineas por el método tradicional, cambiando la velocidad de los motores derecho e izquierdo para centrarlo en la línea. Una vez ajustada esta velocidad se puede suprimir la bola metálica y dejando los giros en manos de la servo-dirección, ya suavizada, actuando los motores a modo de ASR, control de la tracción para evitar el deslizamiento. Los bandazos de la dirección se suavizan haciendo una media entre la posición del servo en la dirección anterior y la nueva dirección:
+
+```c
+// SalidaPinDir es el valor que ponemos al servo
+//SPD_Anterior es el anterior valor que tenía el servo
+// Calculamos la media con la anterior
+  SalidaPinDir=(SalidaPinDir+SPD_Anterior)/2;
+  // Ahora la anterior pasa a ser la actual
+  SPD_Anterior=SalidaPinDir;
+```
 
 A partir de aquí empiezo a construir la carrocería, dibujando directamente las medidas que tomo en el chasis sobre la madera y cortando con una sierra de calar. Unimos las piezas con cola blanca para madera, lo lijo y lo pinto de color rojo con _spray_. El portón trasero es abatible, lo que permite acceder al puerto USB para la programación del Arduino Nano. Tambien se abre el capó delantero, dando acceso al *driver* de los motores, y el botón de desconexión del *driver*, muy práctico para hacer pruebas sobre la línea sin moverse.
 

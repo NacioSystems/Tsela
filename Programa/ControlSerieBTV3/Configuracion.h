@@ -27,7 +27,12 @@
 #define retardo  20  // Posible retardo en los bucles
 
 // Lecturas de línea
-#define NEGRO 100    // Por debajo de 100 es color negro
+//¡EN LA OSHWDEN 2019 TENÍA ESTE VALOR DE NEGRO A 100
+// En casa con cinta aislante negra y con papel impreso en tinta este valor
+// funionaba muy bien, pero el negro de la pista OSHWDEM es muy brillante y 
+// refleja algo más de luz. TSELA no era capaz de distingur el negro y ahí se quedó.
+// Con 500 creo que no hace falta ni calibrar. He probado con colores, con grises y bien.
+#define NEGRO 500    // Por debajo de 100 es color negro
 #define BLANCO 500   // Mas de 500 (999) es blanco
 
 #define V_MAX 250  // Va muy bien con 250 / 150 / 100
